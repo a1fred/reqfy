@@ -10,4 +10,4 @@ COPY . /app
 
 RUN pip install -Ur requirements.txt; chmod a+x /app/reqfy.py
 
-CMD ["/app/reqfy.py"]
+CMD ["python", "/app/reqfy.py"]
